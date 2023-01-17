@@ -1,0 +1,61 @@
+name: exhange_rates_flutter
+description: A new Flutter project.
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  fluttertoast:
+  http:
+
+
+  
+  cupertino_icons: ^1.0.2
+  googleapis: ^7.0.0
+  flutter_native_splash: ^1.2.1
+  # google sign
+  googleapis_auth: ^1.3.0
+  google_sign_in: ^5.4.2
+  flutter_secure_storage: ^7.0.1
+  url_launcher: ^6.0.0-nullsafety
+  # fluttertoast: ^8.1.1
+  fluttertoast: ^8.1.2
+  # firebase
+  cloud_firestore: ^4.3.0 
+  firebase_core: ^2.4.1
+  path_provider: ^2.0.11
+  # firebase_analytics: ^3.0.1
+  firebase_storage: ^11.0.10
+  firebase_auth: ^4.2.4
+  video_player: ^2.4.10
+  file_picker: ^1.3.8 
+  rxdart: ^0.22.0
+  syncfusion_flutter_pdfviewer: ^20.4.43
+  bloc: ^8.1.0
+  flutter_bloc: ^8.1.1
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  dio: ^4.0.6
+  multi_select_flutter: ^4.1.2
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+ 
+  uses-material-design: true
+
+  assets:
+    - assets/currency.jpeg
+  fonts:
+    - family: DMSans
+      fonts:
+        - asset: assets/DMSans-Regular.ttf
+  # c7:df:b9:00:4d:d5:c6:b2:f6:e0:4d:41:64:19:7e:03:98:8e:65:47
